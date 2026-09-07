@@ -2,6 +2,18 @@
 
 这个项目用于计算和预测边坡安全系数（Factor of Safety, FOS）。它包含 Morgenstern-Price 风格的安全系数计算核心、训练数据生成脚本、随机森林预测模型训练流程，以及一个可视化的 Streamlit 本地应用。
 
+## 下载 Windows 程序
+
+[下载 SlopeSafetyApp.rar（约 226.5 MiB）](https://github.com/JiaxinWang-L/FACTOR-of-safe-/releases/download/v1.0.0/SlopeSafetyApp.rar) | [发布页面](https://github.com/JiaxinWang-L/FACTOR-of-safe-/releases/tag/v1.0.0) | [完整使用说明](README_WINDOWS.md)
+
+1. 下载 `SlopeSafetyApp.rar`，使用支持 RAR 的解压工具完整解压。
+2. 打开解压后的 `SlopeSafetyApp` 文件夹，双击 `SlopeSafetyApp.exe`。
+3. 等待浏览器打开本地计算页面，输入边坡参数并点击“计算安全系数”。
+
+这是 Windows 64 位免安装版，已包含 Python 和应用运行依赖。请保留与 exe 同级的 `_internal` 文件夹，并在使用期间保持启动窗口打开。GitHub 的 “Code > Download ZIP” 下载的是源码，不包含这个程序包。
+
+本次发布上传的是已有 Windows 程序包，未重新编译；包内程序早于当前仓库源码。源码中的新增功能不保证已包含在该程序包中。批量生成数据和训练模型请参阅下方源码运行说明。
+
 ## 功能
 
 - 计算均质边坡在圆弧滑动面下的安全系数。
